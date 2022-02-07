@@ -1,0 +1,34 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+.div_conteudo {
+  display: flex;
+  padding: 50px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_botoes{
+  // margin-bottom: 20px;
+  flex:1;
+  margin:auto;
+  // height: 200px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 30px;
+  ion-button {
+      height: 60px;      
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+      flex-flow: column;
+  }
+  ion-item{
+      padding: 3px;
+      margin-top: 10px !important;        
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #3f51b5;        
+  }  
+}

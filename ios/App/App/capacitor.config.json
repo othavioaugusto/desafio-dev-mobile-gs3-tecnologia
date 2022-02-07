@@ -1,0 +1,7 @@
+{
+	"appId": "io.ionic.othavio.demo.pg.cap.ng",
+	"appName": "Othavio - Photo Gallery Cap Ng",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "www"
+}
