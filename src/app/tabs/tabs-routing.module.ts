@@ -2,6 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
 
+import { LoginComponent } from '../tab4/login/login.component';
+import { RoomlistComponent } from '../tab4/roomlist/roomlist.component';
+import { AddroomComponent } from '../tab4/addroom/addroom.component';
+import { ChatroomComponent } from '../tab4/chatroom/chatroom.component';
+
 const routes: Routes = [
   {
     path: 'tabs',
@@ -40,6 +45,10 @@ const routes: Routes = [
       {
         path: 'tab4',
         children: [
+          { path: 'login', component: LoginComponent },
+          { path: 'roomlist', component: RoomlistComponent },
+          { path: 'addroom', component: AddroomComponent },
+          { path: 'chatroom/:roomname', component: ChatroomComponent },
           {
             path: '',
             loadChildren: () =>
