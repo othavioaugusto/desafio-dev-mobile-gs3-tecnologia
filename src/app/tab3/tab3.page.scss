@@ -1,3 +1,19 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.div_botoes{
+  flex:1;
+  top: 10px;
+  margin:auto;
+  // height: 200px auto;
+  background: white;
+  padding: 10px;
+  ion-button {
+      flex-flow: column;
+  }
+  ion-item{
+      border-style: solid;
+      border-color: #3f51b5;        
+  }  
+}
